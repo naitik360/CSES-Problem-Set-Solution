@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+long long int find(int n,int k,int m)
+{   
+    if(n==0)
+       return 1;
+    if(n==1)
+       return 2;
+    long long  int a= find(n/2,2,m);
+    if(n%2==0)
+       return (a*a)%m;
+    else
+       return (2*a*a)%m;
+}
+int main(){
+   long long int n,m=1e9+7;
+   cin>>n;
+   cout<<find(n,2,m);
+   return 0;
+}
