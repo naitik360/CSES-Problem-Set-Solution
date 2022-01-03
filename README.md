@@ -1,4 +1,4 @@
-[![Build Status](https://cses.fi/logo.png?1)
+![Build Status](https://cses.fi/logo.png?1)
 
 # Solutions for CSES Problem Set in C++ language
 
