@@ -1,0 +1,59 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+   string s;
+   cin>>s;
+   int t=0;
+   char k='r';
+   map<char,int> m;
+   for(auto i : s) 
+      m[i]++;
+    
+   for(auto &i : m)
+   {
+       if(i.second&1)
+         {
+             t++;
+             k=i.first;
+             i.second=i.second-1;
+         }
+   }
+   
+   if(t>1)
+     {
+         cout<<"NO SOLUTION";
+         return 0;
+     }
+   else
+   {   
+     
+       if(s.size()&1)
+       {
+            s.clear(); 
+            s=k;
+            for(auto i : m)
+            {
+                if(i.second%2==0)
+                {
+                    s= string(i.second/2,i.first) +  s + string(i.second/2,i.first);
+                }
+            }
+            cout<<s;
+            return 0;
+       }
+       else
+       {
+           s.clear(); 
+           
+            for(auto i : m)
+            {
+                if(i.second%2==0)
+                {
+                    s= string(i.second/2,i.first) +  s + string(i.second/2,i.first);
+                }
+            }
+            cout<<s;
+            return 0;
+       }
+   }
+}
