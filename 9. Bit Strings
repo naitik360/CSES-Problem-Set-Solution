@@ -6,7 +6,7 @@ long long int find(int n,int k,int m)
        return 1;
     if(n==1)
        return 2;
-    long long  int a= find(n/2,2,m);
+    long long  int a=find(n/2,2,m);
     if(n%2==0)
        return (a*a)%m;
     else
