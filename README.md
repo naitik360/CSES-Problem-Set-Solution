@@ -1,0 +1,5 @@
+# Solutions for CSES Problem Set in C++ language
+
+There are solutions for the following [CSES Problem Set](https://cses.fi/problemset/list/) problems:
+
+1. [1068 - Weird Algorithm](https://cses.fi/problemset/task/1068) ([Soltuion](https://github.com/naitik360/CSES-Problerm-Set-Solutions/blob/main/CSES/1.Weird%20Algorithm)) 
