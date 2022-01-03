@@ -11,3 +11,4 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 4. [Permutations ⭐](https://cses.fi/problemset/task/1070/) ([Solution](https://github.com/naitik360/CSES-Problem-Set-Solution/blob/main/5.%20Permutations%20(%E2%9C%A8))) 
 8. [Two Sets ⭐](https://cses.fi/problemset/task/1092/) ([Solution](https://github.com/naitik360/CSES-Problem-Set-Solution/blob/main/8.%20Two%20Sets)) 
 9. [Bit Strings](https://cses.fi/problemset/result/3325939/) ([Solution](https://github.com/naitik360/CSES-Problem-Set-Solution/blob/main/9.%20Bit%20Strings)) 
+9. [Palindrome Reorder](https://cses.fi/problemset/task/1755/) ([Solution](https://github.com/naitik360/CSES-Problem-Set-Solution/blob/main/12.%20Palindrome%20Reorder) 
