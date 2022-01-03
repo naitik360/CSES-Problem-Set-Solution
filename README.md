@@ -7,3 +7,4 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 3. [Repetitions](https://cses.fi/problemset/task/1069/) ([Solution](https://github.com/naitik360/CSES-Problem-Set-Solution/blob/main/3.Repetitions)) 
 3. [Increasing Array](https://cses.fi/problemset/task/1094/) ([Solution](https://github.com/naitik360/CSES-Problem-Set-Solution/blob/main/4.Increasing%20Array)) 
 4. [Permutations ⭐](https://cses.fi/problemset/task/1070/) ([Solution](https://github.com/naitik360/CSES-Problem-Set-Solution/blob/main/5.%20Permutations)) 
+8. [Two Sets](https://cses.fi/problemset/task/1092/) ([Solution](https://github.com/naitik360/CSES-Problem-Set-Solution/blob/main/8.%20Two%20Sets)) 
