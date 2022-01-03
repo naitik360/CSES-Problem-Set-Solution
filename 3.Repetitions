@@ -1,0 +1,37 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll            long long int
+#define instr(n)      to_string(n)
+#define setbits(x)     __builtin_popcountll(x)
+#define mod           1000000007
+#define s(s)          s.size()
+#define pi            acos(1)
+#define all(x)        x.begin(),x.end()
+#define v(n)          vector<int> v(n)
+#define w(x)          int x;cin>>x;while(x--)
+#define ps(x,y)       fixed<<setprecision(y)<<x
+#define f(i,j,n)      for(int i=j;i<=n;i++)
+#define Fas           ios_base::sync_with_stdio(0);cin.tie(0);cin.tie(0);
+int main(){
+    string s;
+    cin>>s;
+    char prev=s[0];
+    int cnt=1,res=0;
+    for(int i=1;i<s.size();i++)
+    {
+        if(s[i]!=prev)
+        {
+            res=max(res,cnt);
+            cnt=1;
+            prev=s[i];
+        }
+        else 
+        {
+            cnt++;
+            prev=s[i];
+        }
+    }
+  res=max(res,cnt);
+  cout<<res;
+  return 0;
+}
